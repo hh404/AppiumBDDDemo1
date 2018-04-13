@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A05BC41205A7A7A007ED4DC /* btn_checkbox_check.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A05BC40205A7A79007ED4DC /* btn_checkbox_check.png */; };
+		3A0E4B952080468A00B1A302 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0E4B942080468A00B1A302 /* CustomView.swift */; };
+		3AFBBE82205A7BB500B50260 /* BadgeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFBBE80205A7BB500B50260 /* BadgeLabel.swift */; };
+		3AFBBE83205A7BB500B50260 /* GiftBoxBadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFBBE81205A7BB500B50260 /* GiftBoxBadgeView.swift */; };
 		3AFFDE72205A73700056A8F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFFDE71205A73700056A8F7 /* AppDelegate.swift */; };
 		3AFFDE74205A73700056A8F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFFDE73205A73700056A8F7 /* ViewController.swift */; };
 		3AFFDE77205A73700056A8F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AFFDE75205A73700056A8F7 /* Main.storyboard */; };
@@ -34,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3A05BC40205A7A79007ED4DC /* btn_checkbox_check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_checkbox_check.png; sourceTree = "<group>"; };
+		3A0E4B942080468A00B1A302 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		3AFBBE80205A7BB500B50260 /* BadgeLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BadgeLabel.swift; sourceTree = "<group>"; };
+		3AFBBE81205A7BB500B50260 /* GiftBoxBadgeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GiftBoxBadgeView.swift; sourceTree = "<group>"; };
 		3AFFDE6E205A73700056A8F7 /* AppiumBDDDemo1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppiumBDDDemo1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AFFDE71205A73700056A8F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3AFFDE73205A73700056A8F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,12 +105,16 @@
 		3AFFDE70205A73700056A8F7 /* AppiumBDDDemo1 */ = {
 			isa = PBXGroup;
 			children = (
+				3AFBBE80205A7BB500B50260 /* BadgeLabel.swift */,
+				3AFBBE81205A7BB500B50260 /* GiftBoxBadgeView.swift */,
+				3A05BC40205A7A79007ED4DC /* btn_checkbox_check.png */,
 				3AFFDE71205A73700056A8F7 /* AppDelegate.swift */,
 				3AFFDE73205A73700056A8F7 /* ViewController.swift */,
 				3AFFDE75205A73700056A8F7 /* Main.storyboard */,
 				3AFFDE78205A73700056A8F7 /* Assets.xcassets */,
 				3AFFDE7A205A73700056A8F7 /* LaunchScreen.storyboard */,
 				3AFFDE7D205A73700056A8F7 /* Info.plist */,
+				3A0E4B942080468A00B1A302 /* CustomView.swift */,
 			);
 			path = AppiumBDDDemo1;
 			sourceTree = "<group>";
@@ -232,6 +244,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A05BC41205A7A7A007ED4DC /* btn_checkbox_check.png in Resources */,
 				3AFFDE7C205A73700056A8F7 /* LaunchScreen.storyboard in Resources */,
 				3AFFDE79205A73700056A8F7 /* Assets.xcassets in Resources */,
 				3AFFDE77205A73700056A8F7 /* Main.storyboard in Resources */,
@@ -259,7 +272,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A0E4B952080468A00B1A302 /* CustomView.swift in Sources */,
+				3AFBBE82205A7BB500B50260 /* BadgeLabel.swift in Sources */,
 				3AFFDE74205A73700056A8F7 /* ViewController.swift in Sources */,
+				3AFBBE83205A7BB500B50260 /* GiftBoxBadgeView.swift in Sources */,
 				3AFFDE72205A73700056A8F7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
